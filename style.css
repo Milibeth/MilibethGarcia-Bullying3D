@@ -2,23 +2,23 @@ body{
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f4f4f4;
+  background: #ffffff;
 }
 
 header{
-  background-color: #8fecff;
-  color: #000000;
+  background-color: #a37dca;
+  color: #f2f2f2;
   padding: 1em 0;
   text-align: center;
 }
 
 nav{
-  background-color: #333333;
+  background-color: #eae5ff;
   overflow: hidden;
 }
 
 nav a{
-  color: #ffffff;
+  color: #1f1e1e;
   display: block;
   padding: 14px 16px;
   float: left;
@@ -29,6 +29,25 @@ nav a{
 }
 
 nav a:hover{
-  background-color: #dedede;
+  background-color: #c5bee4;
   color: black;
 }
+
+.container{
+  padding: 20px;
+}
+
+.sessao{
+  background-color: #cbc8e4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+footer{
+  background-color: #333333;
+  color: #e5c2ce;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
